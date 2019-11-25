@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành position</title>
+    <style>
+        div.sticky{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            background-color: darkturquoise;
+            border: 2px solid chartreuse;
+        }
+        /*.div1{
+            width: 600px;
+            height: 600px;
+            background-color: darkturquoise;
+            position: relative;
+        }
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: darkgoldenrod;
+            position: absolute;
+            top: 0px;
+            right: -10px;
+        }*/
+        /*.div1{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: relative;
+            top:200px;
+            left: 400px;
+        }
+        .div2  {
+            background-color: honeydew;
+            width: 100px;
+            height: 100px;
+            position: fixed;
+        }*/
+    </style>
+</head>
+<body>
+        <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+        <p>Note: IE/Edge 15 and earlier versions do not support sticky position.</p>
+        <div class="sticky"> i AM Sticky </div>
+        <div style="padding-bottom: 2000px">
+            <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+            <p>Scroll back up to remove the stickyness.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </div>
+       <!--<div class="div1">
+
+       </div>
+       <div class="div2"></div>-->
+        <!--<div class="div1">
+            <div class="div2"></div>
+
+        </div>-->
+
+</body>
+</html>

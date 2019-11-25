@@ -1,0 +1,11 @@
+div {
+    height: 300px;
+    width: 1000px;
+    background-image: url("../anh/images.png");
+    background-repeat: no-repeat;
+    background-position: 30px 40px;
+    background-attachment: fixed;
+}
+span {
+    background-color: aqua;
+}
